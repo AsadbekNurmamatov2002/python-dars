@@ -75,5 +75,23 @@ print(square(2))
 print(square(3))
 print(square(10))
 
+# 11-misol
 
+def century(year):
+    return str(year//100+1)+" Asr"
+print(century(2050))# 21
+print(century(50)) # 1
+print(century(350)) #4
+
+# 12-misol
+
+def simple_multiplication(number) :
+    if number%2==0:
+        s=number*8
+    else:
+        s=number*9
+    return s
+
+print(simple_multiplication(2))
+print(simple_multiplication(5))
 
