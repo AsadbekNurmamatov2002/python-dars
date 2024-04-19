@@ -94,4 +94,14 @@ def simple_multiplication(number) :
 
 print(simple_multiplication(2))
 print(simple_multiplication(5))
+# 13-misol
+
+def move(position, roll):
+    if 0<roll<=6:
+        return position+2*roll
+    else:
+        return 'bunday roll yuq!!'
+    
+print(move(0,5))
+print(move(6,7))
 
