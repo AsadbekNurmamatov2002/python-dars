@@ -66,3 +66,14 @@ def ather_angle(a,b):
 print(ather_angle(20, 120)) # 40
 print(ather_angle(120, 120)) # None
 
+# 10-misol
+
+def square(n):
+    return n**2
+
+print(square(2))
+print(square(3))
+print(square(10))
+
+
+
